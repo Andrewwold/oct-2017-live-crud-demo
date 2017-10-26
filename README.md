@@ -1,15 +1,15 @@
 WEEKEND HOME WORK!!!
 
-1. Build a rails app that uses postgres
+x 1. Build a rails app that uses postgres
 
-1.5 start git repo,
+x 1.5 start git repo,
 
-2.  create a resource generator for blogs
+x 2.  create a resource generator for blogs
 (code to run
 rails g resource Blog title:string author:string body:text
 )
 
-3. run a controller generator called Pages, and load in 3 pages.  home, authors, and titles. 
+x 3. run a controller generator called Pages, and load in 3 pages.  home, authors, and titles. 
 
 
 4. create the crud functionality for blog by hand after running the generator
