@@ -1,24 +1,19 @@
-# README
+WEEKEND HOME WORK!!!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Build a rails app that uses postgres
 
-Things you may want to cover:
+1.5 start git repo,
 
-* Ruby version
+2.  create a resource generator for blogs
+(code to run
+rails g resource Blog title:string author:string body:text
+)
 
-* System dependencies
+3. run a controller generator called Pages, and load in 3 pages.  home, authors, and titles. 
 
-* Configuration
 
-* Database creation
+4. create the crud functionality for blog by hand after running the generator
 
-* Database initialization
+5. load the title information from you blogs table into the title page, and the author information into your authors page.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+6. once completed push your work to git hub and DM the link to your git hub for review.
