@@ -12,7 +12,7 @@ rails g resource Blog title:string author:string body:text
 x 3. run a controller generator called Pages, and load in 3 pages.  home, authors, and titles. 
 
 
-4. create the crud functionality for blog by hand after running the generator
+x 4. create the crud functionality for blog by hand after running the generator
 
 5. load the title information from you blogs table into the title page, and the author information into your authors page.
 

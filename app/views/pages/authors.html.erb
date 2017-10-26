@@ -1,2 +1,11 @@
 <h1>Pages#authors</h1>
 <p>Find me in app/views/pages/authors.html.erb</p>
+
+<tbody>
+	<% @blogs.each do |blog| %>
+	<tr>
+		<td><%= blog.author %></td>
+		<td><%= link_to 'Show', blog %></td>
+	</tr>
+	<% end %>
+</tbody>

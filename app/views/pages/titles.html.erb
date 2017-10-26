@@ -1,2 +1,12 @@
 <h1>Pages#titles</h1>
 <p>Find me in app/views/pages/titles.html.erb</p>
+
+
+<tbody>
+	<% @blogs.each do |blog| %>
+	<tr>
+		<td><%= blog.title %></td>
+		<td><%= link_to 'Show', blog %></td>
+	</tr>
+	<% end %>
+</tbody>
